@@ -36,14 +36,6 @@
     }
 }
 
-@media (min-width: 481px) and (max-width: 768px) and (orientation: landscape) {
-    .countdown h1 {
-        font-size: 42px;
-    }
-    .countdown h4 {
-        font-size: 10px;
-    }
-}
 
 @media (min-width: 481px) and (max-width: 768px) {
     .countdown .timer {
@@ -54,6 +46,15 @@
     }
     .countdown h4 {
         font-size: 14px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) and (orientation: landscape) {
+    .countdown h1 {
+        font-size: 42px;
+    }
+    .countdown h4 {
+        font-size: 10px;
     }
 }
 

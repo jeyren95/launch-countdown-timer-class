@@ -1,7 +1,7 @@
 .footer {
     background-image: url("../images/pattern-hills.svg");
     background-size: cover;
-    height: 25vh;
+    height: 30vh;
 }
 
 .footer .icons {
@@ -26,11 +26,6 @@
     }
 }
 
-@media (min-width: 481px) and (max-width: 768px) and (orientation: landscape) {
-    .icons i {
-        margin: 0 2%;
-    }
-}
 
 @media (min-width: 481px) and (max-width: 768px) {
     .footer .icons {
@@ -38,6 +33,16 @@
     }
     .icons i {
         margin: 0 3%;
+    }
+}
+
+
+@media (min-width: 481px) and (max-width: 768px) and (orientation: landscape) {
+    .footer .icons {
+        padding: 6% 0;
+    }
+    .icons i {
+        margin: 0 2%;
     }
 }
 
